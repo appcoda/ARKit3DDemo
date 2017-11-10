@@ -12,16 +12,20 @@
 		6347512C1F9E1CE000B52EE7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6347512A1F9E1CE000B52EE7 /* Main.storyboard */; };
 		6347512E1F9E1CE000B52EE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6347512D1F9E1CE000B52EE7 /* Assets.xcassets */; };
 		634751311F9E1CE000B52EE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6347512F1F9E1CE000B52EE7 /* LaunchScreen.storyboard */; };
+		6383C5F01F9F742D00CCB6D2 /* car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 6383C5EF1F9F742D00CCB6D2 /* car.dae */; };
+		63CEAFF71FA5ABA800DA9274 /* paperPlane.scn in Resources */ = {isa = PBXBuildFile; fileRef = 63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		634751231F9E1CE000B52EE7 /* AppCoda-ARKit-Part2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppCoda-ARKit-Part2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKit3DDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634751261F9E1CE000B52EE7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		634751281F9E1CE000B52EE7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6347512B1F9E1CE000B52EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6347512D1F9E1CE000B52EE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634751301F9E1CE000B52EE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		634751321F9E1CE000B52EE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6383C5EF1F9F742D00CCB6D2 /* car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = car.dae; sourceTree = "<group>"; };
+		63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = paperPlane.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +42,7 @@
 		6347511A1F9E1CDF00B52EE7 = {
 			isa = PBXGroup;
 			children = (
-				634751251F9E1CE000B52EE7 /* AppCoda-ARKit-Part2 */,
+				634751251F9E1CE000B52EE7 /* ARKit3DDemo */,
 				634751241F9E1CE000B52EE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,14 +50,15 @@
 		634751241F9E1CE000B52EE7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				634751231F9E1CE000B52EE7 /* AppCoda-ARKit-Part2.app */,
+				634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		634751251F9E1CE000B52EE7 /* AppCoda-ARKit-Part2 */ = {
+		634751251F9E1CE000B52EE7 /* ARKit3DDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6383C5EC1F9F741400CCB6D2 /* 3D Objects */,
 				634751261F9E1CE000B52EE7 /* AppDelegate.swift */,
 				634751281F9E1CE000B52EE7 /* ViewController.swift */,
 				6347512A1F9E1CE000B52EE7 /* Main.storyboard */,
@@ -61,15 +66,24 @@
 				6347512F1F9E1CE000B52EE7 /* LaunchScreen.storyboard */,
 				634751321F9E1CE000B52EE7 /* Info.plist */,
 			);
-			path = "AppCoda-ARKit-Part2";
+			path = ARKit3DDemo;
+			sourceTree = "<group>";
+		};
+		6383C5EC1F9F741400CCB6D2 /* 3D Objects */ = {
+			isa = PBXGroup;
+			children = (
+				63CEAFF61FA5A3B700DA9274 /* paperPlane.scn */,
+				6383C5EF1F9F742D00CCB6D2 /* car.dae */,
+			);
+			path = "3D Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		634751221F9E1CE000B52EE7 /* AppCoda-ARKit-Part2 */ = {
+		634751221F9E1CE000B52EE7 /* ARKit3DDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "AppCoda-ARKit-Part2" */;
+			buildConfigurationList = 634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */;
 			buildPhases = (
 				6347511F1F9E1CE000B52EE7 /* Sources */,
 				634751201F9E1CE000B52EE7 /* Frameworks */,
@@ -79,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "AppCoda-ARKit-Part2";
+			name = ARKit3DDemo;
 			productName = "AppCoda-ARKit-Part2";
-			productReference = 634751231F9E1CE000B52EE7 /* AppCoda-ARKit-Part2.app */;
+			productReference = 634751231F9E1CE000B52EE7 /* ARKit3DDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "AppCoda-ARKit-Part2" */;
+			buildConfigurationList = 6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "ARKit3DDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				634751221F9E1CE000B52EE7 /* AppCoda-ARKit-Part2 */,
+				634751221F9E1CE000B52EE7 /* ARKit3DDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -125,6 +139,8 @@
 			files = (
 				634751311F9E1CE000B52EE7 /* LaunchScreen.storyboard in Resources */,
 				6347512E1F9E1CE000B52EE7 /* Assets.xcassets in Resources */,
+				6383C5F01F9F742D00CCB6D2 /* car.dae in Resources */,
+				63CEAFF71FA5ABA800DA9274 /* paperPlane.scn in Resources */,
 				6347512C1F9E1CE000B52EE7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,12 +290,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3V8EPWEYFE;
-				INFOPLIST_FILE = "AppCoda-ARKit-Part2/Info.plist";
+				DEVELOPMENT_TEAM = YZP52RND5S;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit3DDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jayvenn.app.AppCoda-ARKit-Part2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.ARKit3DDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -289,12 +307,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3V8EPWEYFE;
-				INFOPLIST_FILE = "AppCoda-ARKit-Part2/Info.plist";
+				DEVELOPMENT_TEAM = YZP52RND5S;
+				INFOPLIST_FILE = "$(SRCROOT)/ARKit3DDemo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jayvenn.app.AppCoda-ARKit-Part2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.ARKit3DDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "AppCoda-ARKit-Part2" */ = {
+		6347511E1F9E1CDF00B52EE7 /* Build configuration list for PBXProject "ARKit3DDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634751331F9E1CE000B52EE7 /* Debug */,
@@ -312,7 +332,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "AppCoda-ARKit-Part2" */ = {
+		634751351F9E1CE000B52EE7 /* Build configuration list for PBXNativeTarget "ARKit3DDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				634751361F9E1CE000B52EE7 /* Debug */,
